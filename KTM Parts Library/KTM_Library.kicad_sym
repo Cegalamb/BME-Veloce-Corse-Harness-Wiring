@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 27.686 22.606 0)
+			(at 43.18 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ECU"
+			(at 44.45 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,14 +63,15 @@
 		)
 		(symbol "AIM_Taipan_ECU_0_1"
 			(rectangle
-				(start -36.83 20.32)
-				(end 36.83 -20.32)
+				(start -41.91 33.02)
+				(end 41.91 -33.02)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 			(polyline
@@ -100,9 +101,9 @@
 		)
 		(symbol "AIM_Taipan_ECU_1_1"
 			(pin input line
-				(at -35.56 -22.86 90)
+				(at -40.64 -35.56 90)
 				(length 2.54)
-				(name "Power_Supply"
+				(name "Power_Supply_(terminal_15)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,7 +119,61 @@
 				)
 			)
 			(pin input line
-				(at -33.02 -22.86 90)
+				(at -36.83 35.56 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 35.56 270)
+				(length 2.54)
+				(name "12V_SECOND_INJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.21 35.56 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -38.1 -35.56 90)
 				(length 2.54)
 				(name "Wired_ground_from_voltage_regulator"
 					(effects
@@ -136,7 +191,61 @@
 				)
 			)
 			(pin input line
-				(at -30.48 -22.86 90)
+				(at -34.29 35.56 270)
+				(length 2.54)
+				(name "CAN_CAL_HIGH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 35.56 270)
+				(length 2.54)
+				(name "LOW_SIDE_SECOND_INJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 35.56 270)
+				(length 2.54)
+				(name "CAN_EXP_HIGH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -35.56 -35.56 90)
 				(length 2.54)
 				(name "Not_assigned"
 					(effects
@@ -154,7 +263,61 @@
 				)
 			)
 			(pin input line
-				(at -27.94 -22.86 90)
+				(at -31.75 35.56 270)
+				(length 2.54)
+				(name "CAN_CAL_LOW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 35.56 270)
+				(length 2.54)
+				(name "LOW_SIDE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 34.29 35.56 270)
+				(length 2.54)
+				(name "CAN_EXP_LOW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 -35.56 90)
 				(length 2.54)
 				(name "Control_wire,_injection_valve"
 					(effects
@@ -172,7 +335,61 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -22.86 90)
+				(at -29.21 35.56 270)
+				(length 2.54)
+				(name "12V_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 35.56 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 36.83 35.56 270)
+				(length 2.54)
+				(name "12V_OUT_(switched)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -30.48 -35.56 90)
 				(length 2.54)
 				(name "Not_assigned"
 					(effects
@@ -190,9 +407,27 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -22.86 90)
+				(at 1.27 35.56 270)
 				(length 2.54)
-				(name "Ground"
+				(name "ANALOG_INPUT_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -35.56 90)
+				(length 2.54)
+				(name "Ground_(terminal_31)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,7 +443,25 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -22.86 90)
+				(at 3.81 35.56 270)
+				(length 2.54)
+				(name "ANALOG_INPUT_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -35.56 90)
 				(length 2.54)
 				(name "Control_wire_FL_malfunction_induction_lamp"
 					(effects
@@ -226,7 +479,25 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -22.86 90)
+				(at 6.35 35.56 270)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -35.56 90)
 				(length 2.54)
 				(name "Not_assigned"
 					(effects
@@ -244,7 +515,25 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -22.86 90)
+				(at 8.89 35.56 270)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -35.56 90)
 				(length 2.54)
 				(name "Not_assigned"
 					(effects
@@ -262,7 +551,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -22.86 90)
+				(at -17.78 -35.56 90)
 				(length 2.54)
 				(name "Control_wire,_fuel_pump_relay"
 					(effects
@@ -280,7 +569,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -22.86 90)
+				(at -15.24 -35.56 90)
 				(length 2.54)
 				(name "Control_wire,_ignition_coil"
 					(effects
@@ -298,7 +587,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -22.86 90)
+				(at -12.7 -35.56 90)
 				(length 2.54)
 				(name "Power_supply,_sensor"
 					(effects
@@ -316,7 +605,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -22.86 90)
+				(at -10.16 -35.56 90)
 				(length 2.54)
 				(name "CAN_high"
 					(effects
@@ -334,7 +623,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -22.86 90)
+				(at -7.62 -35.56 90)
 				(length 2.54)
 				(name "CAN_low"
 					(effects
@@ -352,7 +641,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -22.86 90)
+				(at -5.08 -35.56 90)
 				(length 2.54)
 				(name "Signal_wire,_throttle_valve_position_sensor"
 					(effects
@@ -370,7 +659,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -22.86 90)
+				(at -2.54 -35.56 90)
 				(length 2.54)
 				(name "Signal_wire,_tilting_sensor"
 					(effects
@@ -388,7 +677,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -22.86 90)
+				(at 0 -35.56 90)
 				(length 2.54)
 				(name "Sensor_ground"
 					(effects
@@ -398,6 +687,294 @@
 					)
 				)
 				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_gear_position_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_intake_air_temperature_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_coolant_temperature_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -35.56 90)
+				(length 2.54)
+				(name "Ground_(terminal_31)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_crankshaft_speed_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_crankshaft_speed_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -35.56 90)
+				(length 2.54)
+				(name "K_wire,_KTM_diagnostics_tool"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -35.56 90)
+				(length 2.54)
+				(name "Signal_wire,_induction_manifold_pressure_sensor"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -35.56 90)
+				(length 2.54)
+				(name "Control_wire,_stop_button"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 38.1 -35.56 90)
+				(length 2.54)
+				(name "Not_assigned"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 40.64 -35.56 90)
+				(length 2.54)
+				(name "Ground_(terminal_31)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
