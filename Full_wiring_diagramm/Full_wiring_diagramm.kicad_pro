@@ -254,7 +254,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "KTM Library"
+    ]
   },
   "meta": {
     "filename": "Full_wiring_diagramm.kicad_pro",
