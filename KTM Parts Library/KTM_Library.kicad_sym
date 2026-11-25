@@ -4475,8 +4475,8 @@
 		)
 		(symbol "VC_Screen_1_1"
 			(rectangle
-				(start -15.24 10.16)
-				(end 15.24 -10.16)
+				(start -15.24 10.795)
+				(end 15.24 -10.795)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -4487,7 +4487,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -12.7 90)
+				(at -13.97 -13.335 90)
 				(length 2.54)
 				(name "+12V"
 					(effects
@@ -4505,7 +4505,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -12.7 90)
+				(at -11.43 -13.335 90)
 				(length 2.54)
 				(name "CNTRL_BTN"
 					(effects
@@ -4523,7 +4523,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -12.7 90)
+				(at -8.89 -13.335 90)
 				(length 2.54)
 				(name "CNTRL_CLK"
 					(effects
@@ -4541,7 +4541,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -12.7 90)
+				(at -6.35 -13.335 90)
 				(length 2.54)
 				(name "CNTRL_DAT"
 					(effects
@@ -4559,7 +4559,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -12.7 90)
+				(at -3.81 -13.335 90)
 				(length 2.54)
 				(name "CAN_High"
 					(effects
@@ -4577,7 +4577,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 -12.7 90)
+				(at -1.27 -13.335 90)
 				(length 2.54)
 				(name "CAN_Low"
 					(effects
@@ -4595,7 +4595,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -12.7 90)
+				(at 1.27 -13.335 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4613,7 +4613,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -12.7 90)
+				(at 3.81 -13.335 90)
 				(length 2.54)
 				(name "Speed_sensor"
 					(effects
@@ -4631,9 +4631,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -12.7 90)
+				(at 6.35 -13.335 90)
 				(length 2.54)
-				(name "Not_assigned"
+				(name "Speed_sensor_supply"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4649,9 +4649,9 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -12.7 90)
+				(at 8.89 -13.335 90)
 				(length 2.54)
-				(name "Radiator_NTC"
+				(name "Analog_in"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4667,9 +4667,9 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -12.7 90)
+				(at 11.43 -13.335 90)
 				(length 2.54)
-				(name "Not_assigned"
+				(name "LOW_SIDE_SW_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4685,9 +4685,9 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -12.7 90)
+				(at 13.97 -13.335 90)
 				(length 2.54)
-				(name "Not_assigned"
+				(name "DNC"
 					(effects
 						(font
 							(size 1.27 1.27)

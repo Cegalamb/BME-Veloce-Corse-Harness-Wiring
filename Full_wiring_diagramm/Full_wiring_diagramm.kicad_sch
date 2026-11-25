@@ -10267,6 +10267,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KTM Library:VC_Screen"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 16.764 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screen"
+				(at 19.304 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VC_Screen_0_1"
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 5.715) (xy 0 5.715) (xy 0 8.255) (xy 0 5.715) (xy -0.508 5.715) (xy -1.905 3.81)
+						(xy -0.508 5.715) (xy 0.508 5.715) (xy 1.905 3.81) (xy 0.508 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.715)
+					(radius 1.7961)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VC_Screen_1_1"
+				(rectangle
+					(start -15.24 10.795)
+					(end 15.24 -10.795)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -13.97 -13.335 90)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -13.335 90)
+					(length 2.54)
+					(name "CNTRL_BTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -13.335 90)
+					(length 2.54)
+					(name "CNTRL_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -13.335 90)
+					(length 2.54)
+					(name "CNTRL_DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -13.335 90)
+					(length 2.54)
+					(name "CAN_High"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -13.335 90)
+					(length 2.54)
+					(name "CAN_Low"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.335 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -13.335 90)
+					(length 2.54)
+					(name "Speed_sensor"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -13.335 90)
+					(length 2.54)
+					(name "Speed_sensor_supply"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -13.335 90)
+					(length 2.54)
+					(name "Analog_in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -13.335 90)
+					(length 2.54)
+					(name "LOW_SIDE_SW_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -13.335 90)
+					(length 2.54)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KTM Library:Voltage_Regulator"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11324,323 +11641,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Veloce Library:VC_Screen"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 16.764 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screen"
-				(at 19.304 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VC_Screen_0_1"
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 5.715) (xy 0 5.715) (xy 0 8.255) (xy 0 5.715) (xy -0.508 5.715) (xy -1.905 3.81)
-						(xy -0.508 5.715) (xy 0.508 5.715) (xy 1.905 3.81) (xy 0.508 5.715)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.715)
-					(radius 1.7961)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VC_Screen_1_1"
-				(rectangle
-					(start -15.24 10.16)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin input line
-					(at -13.97 -12.7 90)
-					(length 2.54)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -12.7 90)
-					(length 2.54)
-					(name "CNTRL_BTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -12.7 90)
-					(length 2.54)
-					(name "CNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -12.7 90)
-					(length 2.54)
-					(name "CNTRL_DAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -12.7 90)
-					(length 2.54)
-					(name "CAN_High"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -12.7 90)
-					(length 2.54)
-					(name "CAN_Low"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -12.7 90)
-					(length 2.54)
-					(name "Speed_sensor"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -12.7 90)
-					(length 2.54)
-					(name "Not_assigned"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -12.7 90)
-					(length 2.54)
-					(name "Radiator_NTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 -12.7 90)
-					(length 2.54)
-					(name "Not_assigned"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -12.7 90)
-					(length 2.54)
-					(name "Not_assigned"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDPWR"
 			(power global)
 			(pin_numbers
@@ -12101,6 +12101,16 @@
 		)
 		(uuid "7d577b22-901c-401a-b7fe-0fc419acbba0")
 	)
+	(text "FL sensor\n"
+		(exclude_from_sim no)
+		(at 402.082 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7da08e82-a98a-467f-8e57-03cafa6a8488")
+	)
 	(text "Blokk része?\n"
 		(exclude_from_sim no)
 		(at 170.434 347.98 0)
@@ -12402,7 +12412,7 @@
 	(junction
 		(at 116.84 298.45)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 0 0 1)
 		(uuid "f67910b0-1e88-42b5-9c76-3df46e87904e")
 	)
 	(bus_entry
@@ -21279,118 +21289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Veloce Library:VC_Screen")
-		(at 325.12 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b73aafff-fc21-431a-bbf9-531c76ac7523")
-		(property "Reference" "U9"
-			(at 341.63 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screen"
-			(at 341.63 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fa7d45bd-c95f-4c01-87a6-8e0c8bc3b40a")
-		)
-		(pin "1"
-			(uuid "21617460-a85d-4603-9aab-7cfd66e06f31")
-		)
-		(pin "6"
-			(uuid "823f78e9-5e6c-4dc4-86f7-74796f5e976b")
-		)
-		(pin "7"
-			(uuid "96a6cafd-2b45-4832-b368-1dae71406a34")
-		)
-		(pin "11"
-			(uuid "84b87f8c-f8ca-4a4a-8223-682c1be8aecd")
-		)
-		(pin "12"
-			(uuid "3c832e0a-e1c4-4452-8241-f60a712abc0a")
-		)
-		(pin "10"
-			(uuid "52c49f60-4f1c-4b3b-bc1c-98585ca1c3aa")
-		)
-		(pin "5"
-			(uuid "4a85cb27-7ada-4ee2-bec0-3802978d00a0")
-		)
-		(pin "2"
-			(uuid "4630c454-a16b-49db-8a0e-f12a0ba1516f")
-		)
-		(pin "9"
-			(uuid "3c533b67-41ac-4b47-bb3e-369bb111914b")
-		)
-		(pin "4"
-			(uuid "f4e4bf0b-bd2b-4d8b-b441-4ae968b82ae7")
-		)
-		(pin "8"
-			(uuid "665247dc-5493-4531-9c3f-cca67491284d")
-		)
-		(instances
-			(project "Full_wiring_diagramm"
-				(path "/2133b7e9-67ba-49ce-a5e3-0a85b8b0bcfb"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
 		(at 240.03 344.17 90)
 		(unit 1)
@@ -22112,6 +22010,118 @@
 			(project "Full_wiring_diagramm"
 				(path "/2133b7e9-67ba-49ce-a5e3-0a85b8b0bcfb"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KTM Library:VC_Screen")
+		(at 393.7 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e463a4a9-0139-4631-9bf9-1496b1c9bd32")
+		(property "Reference" "U9"
+			(at 410.21 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screen"
+			(at 410.21 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "be795cca-292b-4037-b09d-dd8879b9bff4")
+		)
+		(pin "3"
+			(uuid "a78582d7-7f51-4357-9c07-e36edf56d9c8")
+		)
+		(pin "10"
+			(uuid "7d3b4ffd-ee6c-4c84-a98f-a6ad1c053b55")
+		)
+		(pin "8"
+			(uuid "1fe9523c-f700-4fb8-aa24-c2cf63d2ef68")
+		)
+		(pin "12"
+			(uuid "dd62478f-5e4a-4be7-bade-c191c1faf5b3")
+		)
+		(pin "1"
+			(uuid "e3b8c99d-eddb-4310-8815-6694e736a391")
+		)
+		(pin "11"
+			(uuid "1f386de1-6c8b-46bf-83e2-3fbc15d5cc16")
+		)
+		(pin "5"
+			(uuid "071a9631-6631-427e-8d1a-482a5638c7bc")
+		)
+		(pin "2"
+			(uuid "febaf8bb-3ae5-42de-b28b-6f8ce1196c0c")
+		)
+		(pin "6"
+			(uuid "aece5ba9-a6aa-4b2d-b78c-03962cd06a2d")
+		)
+		(pin "9"
+			(uuid "d46d2058-0d3b-43d6-9eec-5518a9f7f265")
+		)
+		(pin "7"
+			(uuid "6ee2ec88-9228-4970-8caf-ff5e976a5116")
+		)
+		(instances
+			(project "Full_wiring_diagramm"
+				(path "/2133b7e9-67ba-49ce-a5e3-0a85b8b0bcfb"
+					(reference "U9")
 					(unit 1)
 				)
 			)
