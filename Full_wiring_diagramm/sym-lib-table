@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "KTM Library") (type "KiCad") (uri "C:/Main/Veloce Corse/Elektró/Harness/GitHub/BME-Veloce-Corse-Harness-Wiring/KTM Parts Library/KTM_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "KTM Library") (type "KiCad") (uri "C:/Main/Veloce Corse/Elektró/GitHub/BME-Veloce-Corse-Harness-Wiring/KTM Parts Library/KTM_Library.kicad_sym") (options "") (descr ""))
 )
