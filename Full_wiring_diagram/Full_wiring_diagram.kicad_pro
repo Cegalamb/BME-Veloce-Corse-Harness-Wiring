@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.3.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -254,10 +254,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "KTM Library"
+    ]
   },
   "meta": {
-    "filename": "Engine Wiring Diagram.kicad_pro",
+    "filename": "Full_wiring_diagram.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -425,18 +427,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Engine Wiring Diagram.kicad_sch",
-        "name": "Engine Wiring Diagram",
+        "filename": "Full_wiring_diagram.kicad_sch",
+        "name": "Full_wiring_diagram",
         "uuid": "2133b7e9-67ba-49ce-a5e3-0a85b8b0bcfb"
       }
     ],
-    "used_designators": "#PWR1-3,BT1-3,C1-2,F1,G1,J1-41,K1-4,L1,M1-2,R1-2,SW1-2,T1,TH1-2,U1-8",
+    "used_designators": "#PWR1-4,BT1-3,C1-2,F1,G1,J1-59,K1-4,L1,M1-2,R1-2,SW1-2,T1,TH1-3,U1-12",
     "variants": []
   },
   "sheets": [
     [
       "2133b7e9-67ba-49ce-a5e3-0a85b8b0bcfb",
-      "Engine Wiring Diagram"
+      "Full_wiring_diagramm"
     ]
   ],
   "text_variables": {},
